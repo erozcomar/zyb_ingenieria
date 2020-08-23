@@ -78,13 +78,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-active"><a href="#hero">{{trans('zyb.home')}}</a></li>
+          <li><a href="#about">{{trans('zyb.about')}}</a></li>
+          <li><a href="#services">{{trans('zyb.services')}}</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+          <!-- <li><a href="#team">{{trans('zyb.team')}}</a></li> -->
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
@@ -100,8 +100,8 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
+          </li> -->
+          <li><a href="#contact">{{trans('zyb.contact')}}</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -116,7 +116,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">About Us</h3>
+          <h3 class="section-title">{{trans('zyb.about')}}</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
         </div>
@@ -150,7 +150,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Our Services</h3>
+          <h3 class="section-title">{{trans('zyb.our_services')}}</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
         </div>
@@ -194,7 +194,7 @@
   <!--==========================
   Subscrbe Section
   ============================-->
-  <section id="subscribe">
+  <!-- <section id="subscribe">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-8">
@@ -206,12 +206,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!--==========================
   Porfolio Section
   ============================-->
-  <section id="portfolio">
+  <!-- <section id="portfolio">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -296,12 +296,12 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!--==========================
   Testimonials Section
   ============================-->
-  <section id="testimonials">
+  <!-- <section id="testimonials">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -342,12 +342,12 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!--==========================
   Team Section
   ============================-->
-  <section id="team">
+  <!-- <section id="team">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -416,7 +416,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!--==========================
   Contact Section
@@ -425,7 +425,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">{{trans('zyb.contact')}}</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
@@ -436,18 +436,18 @@
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>{{trans('zyb.ubication')}}<br>{{trans('zyb.post_code')}}</p>
             </div>
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
+              <p>{{trans('zyb.mail')}}</p>
             </div>
 
-            <div>
+            <!-- <div>
               <i class="fa fa-phone"></i>
               <p>+1 5589 55488 55s</p>
-            </div>
+            </div> -->
 
           </div>
         </div>
@@ -456,23 +456,29 @@
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
+
             <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
+             
+            <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
                 <div class="validation"></div>
-              </div>
+           
+            </div>
               <div class="form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Ingresa un Correo Valido" />
                 <div class="validation"></div>
               </div>
+             
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
                 <div class="validation"></div>
               </div>
+              
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Message"></textarea>
                 <div class="validation"></div>
               </div>
+             
               <div class="text-center"><button type="submit">Enviar mensaje</button></div>
             </form>
           </div>
@@ -485,6 +491,9 @@
   <!--==========================
   Footer
 ============================-->
+
+//! MODIFICAR COLOCAR CORDOBA ARGENTINA
+
   <footer id="footer">
     <div class="container">
       <div class="row">
@@ -499,8 +508,8 @@
         </div>
       </div>
     </div>
-  </footer>
-  <!-- #footer -->
+  </footer> -->
+  <!-- #footer
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
