@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\query;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class zybController extends Controller
 {
@@ -13,8 +14,22 @@ class zybController extends Controller
      */
     public function index()
     {
-        //
+        return view('zyb');
     }
+
+    // public function admin()
+    // {
+    //     $preguntas = [
+    //     'cuanto sale',
+    //     'en que pais estan',
+    //     'hacen trabajos de planeamiento?'
+    //     ];
+
+    //     // ! 1º manera de pasar el arreglo
+    //     // return view('administrador', ['preguntas'=>$preguntas]);
+    //     // ! 2º manera de pasar el arreglo
+    //     return view('administrador', compact('preguntas'));
+    // }
 
     /**
      * Show the form for creating a new resource.
@@ -34,7 +49,25 @@ class zybController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        // $notaNueva = new App\query;
+        // $notaNueva->name = $request->name;
+        // $notaNueva->email = $request->email;
+        // $notaNueva->phone_number = $request->phone_number;
+        // $notaNueva->message = $request->message;
+
+        // $notaNueva->save();
+
+        // return back()->with('mensaje', 'Consulta enviada');
+        
+        DB::table('queries')->insert(
+            ['name' => $request->name,
+            'email' => $request->email,
+            'phone_number' => $request->phone,
+            'message' => $request->message]
+        );
+        // return $request;
+        return back()->with('mensaje', 'Consulta enviada');
     }
 
     /**

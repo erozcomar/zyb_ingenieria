@@ -13,6 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('zyb');
-});
+Route::get('/', 'zybController@index')->name('principal');
+
+// Route::get('/administrador/{id?}', 'zybController@admin')->name('admin');
+
+Route::get('/administrador/{id?}', function($id = null){
+        $preguntas = [
+        'madera',
+        'papel',
+        'pino'
+        ];
+return view('administrador', compact('preguntas', 'id'));
+})->name('admin');
+
+
+Route::get('/welcome', function(){
+return view('welcome');
+})->name('bienvenidos');
+
+Route::get('/prueba', function(){
+return view('prueba');
+})->name('nueva_seccion');
+
+Route::post('/prueba', 'zybController@store')->name('nueva_seccion');
