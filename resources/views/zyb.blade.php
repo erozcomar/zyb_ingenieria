@@ -427,65 +427,78 @@
         <div class="col-md-12">
           <h3 class="section-title">{{trans('zyb.contact')}}</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Tu consulta será respondida por nuestros profesionales en la brevedad</p>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-3 col-md-push-2">
-          <div class="info">
-            <div>
-              <i class="fa fa-map-marker"></i>
-              <p>{{trans('zyb.ubication')}}<br>{{trans('zyb.post_code')}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post" action="{{ route('principal') }}">
+                    <fieldset>
+                        @csrf
+                    
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Empresa" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                    class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email"
+                                    class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                    class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                    class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message"
+                                    placeholder="Ingrese su consulta aquí."
+                                    rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
-
-            <div>
-              <i class="fa fa-envelope"></i>
-              <p>{{trans('zyb.mail')}}</p>
-            </div>
-
-            <!-- <div>
-              <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
-            </div> -->
-
-          </div>
         </div>
-
-        <div class="col-md-5 col-md-push-2">
-          <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-
-            <form action="" method="post" role="form" class="contactForm">
-             
-            <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                <div class="validation"></div>
-           
-            </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Ingresa un Correo Valido" />
-                <div class="validation"></div>
-              </div>
-             
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
-                <div class="validation"></div>
-              </div>
-              
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-             
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-            </form>
-          </div>
-        </div>
-
-      </div>
     </div>
+</div>
+ <div class="row">
+     <div class="col-md-3 col-md-push-2">
+         <div class="info">
+             <div>
+                 <i class="fa fa-map-marker"></i>
+                 <p>{{ trans('zyb.ubication') }}<br>{{ trans('zyb.post_code') }}</p>
+             </div>
+
+             <div>
+                 <i class="fa fa-envelope"></i>
+                 <p>{{ trans('zyb.mail') }}</p>
+             </div>
+
+         </div>
+     </div>
   </section>
 
   <!--==========================

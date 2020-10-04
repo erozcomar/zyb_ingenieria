@@ -15,16 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'zybController@index')->name('principal');
 
+Route::post('/', 'zybController@form')->name('principal');
+
 // Route::get('/administrador/{id?}', 'zybController@admin')->name('admin');
 
-Route::get('/administrador/{id?}', function($id = null){
-        $preguntas = [
-        'madera',
-        'papel',
-        'pino'
-        ];
-return view('administrador', compact('preguntas', 'id'));
-})->name('admin');
+Route::any('/administrador', 'zybController@consultarPreguntas')->name('admin');
+
+// Route::get('/administrador/{id?}', function($id = null){
+//         $preguntas = [
+//         'madera',
+//         'papel',
+//         'pino'
+//         ];
+// return view('administrador', compact('preguntas', 'id'));
+// })->name('admin');
 
 
 Route::get('/welcome', function(){

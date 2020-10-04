@@ -4,7 +4,7 @@
 
 <h1>Esta es una nueva seccion de prueba</h1>
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
@@ -63,6 +63,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 @endsection

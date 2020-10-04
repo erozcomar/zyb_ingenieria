@@ -4,6 +4,23 @@ namespace App\Http\Controllers;
 use App\query;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
+use Carbon\Carbon;
+use App\Mail\Consultas;
+
+
+// !importante a tener en cuenta cuando actualizamos un dato en la tabla users columna last_seen lo podemos hacer de dos maneras:
+
+// !-1
+    //    $user->last_seen = Carbon::now();
+    //         $user->save();
+
+// !-2           
+        //     $mytime = Carbon::now();
+
+        //    DB::table('users')
+        //         ->where('id', $user->id)
+        //         ->update(['last_seen' => $mytime]);
 
 class zybController extends Controller
 {
@@ -16,20 +33,28 @@ class zybController extends Controller
     {
         return view('zyb');
     }
+    
+      public function form(Request $request)
+     {
+        DB::table('queries')->insert(
+        ['name' => $request->name,
+        'email' => $request->email,
+        'phone_number' => $request->phone,
+        'message' => $request->message]
+        );
 
-    // public function admin()
-    // {
-    //     $preguntas = [
-    //     'cuanto sale',
-    //     'en que pais estan',
-    //     'hacen trabajos de planeamiento?'
-    //     ];
+     return view('zyb');
+}
 
-    //     // ! 1º manera de pasar el arreglo
-    //     // return view('administrador', ['preguntas'=>$preguntas]);
-    //     // ! 2º manera de pasar el arreglo
-    //     return view('administrador', compact('preguntas'));
-    // }
+      public function consultarPreguntas(Request $request)
+     {
+        // $preguntas= DB::table('queries');
+
+        return view('administrador', compact('preguntas'));
+
+     return view('zyb');
+}
+
 
     /**
      * Show the form for creating a new resource.
@@ -50,24 +75,6 @@ class zybController extends Controller
     public function store(Request $request)
     {
 
-        // $notaNueva = new App\query;
-        // $notaNueva->name = $request->name;
-        // $notaNueva->email = $request->email;
-        // $notaNueva->phone_number = $request->phone_number;
-        // $notaNueva->message = $request->message;
-
-        // $notaNueva->save();
-
-        // return back()->with('mensaje', 'Consulta enviada');
-        
-        DB::table('queries')->insert(
-            ['name' => $request->name,
-            'email' => $request->email,
-            'phone_number' => $request->phone,
-            'message' => $request->message]
-        );
-        // return $request;
-        return back()->with('mensaje', 'Consulta enviada');
     }
 
     /**

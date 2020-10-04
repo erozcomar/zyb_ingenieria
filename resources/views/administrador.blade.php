@@ -10,7 +10,7 @@
 
 @endforeach
 
-@if(!empty($id))
+<!-- @if(!empty($id))
 
 @switch($id)
 
@@ -40,7 +40,7 @@
 @endswitch
 
 
-@endif
+@endif -->
 
 <!-- ejemplo de tabla sacada de bootstrapp -->
 
