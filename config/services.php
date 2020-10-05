@@ -24,10 +24,7 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
-     'sendgrid' => [
-     'api_key' => env('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'),
-     ],
-
+    
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
