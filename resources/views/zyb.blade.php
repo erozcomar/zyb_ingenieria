@@ -120,25 +120,18 @@
         <div class="col-md-12">
           <h3 class="section-title">{{trans('zyb.about')}}</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
         </div>
       </div>
     </div>
     <div class="container about-container wow fadeInUp">
       <div class="row">
         <div class="col-md-6 col-md-push-6 about-content">
-          <h2 class="about-title">We provide great services and ideass</h2>
+          <h2 class="about-title">{{trans('zyb.slogan')}}</h2>
           <p class="about-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
+           {{trans('zyb.about-text1')}}
           </p>
           <p class="about-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
-          </p>
-          <p class="about-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            {{trans('zyb.about-text2')}}
           </p>
         </div>
       </div>
@@ -478,7 +471,7 @@
 
                         <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
@@ -508,18 +501,16 @@
   Footer
 ============================-->
 
-//! MODIFICAR COLOCAR CORDOBA ARGENTINA
-
   <footer id="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="copyright">
-            &copy; Copyright <strong>ProOnliPc Theme</strong>. All Rights Reserved
+            <strong>Córdoba, Argentina</strong>
           </div>
           <div class="credits">
         
-            Templates by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriber">ProOnliPc</a>
+            <a href="https://linkedin.com/in/cristian-bono-11636b103/">Develop By Cristian Bono</a>
           </div>
         </div>
       </div>

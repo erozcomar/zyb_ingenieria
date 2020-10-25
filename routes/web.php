@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//toda esta parte me parece que esta fuera de servicio
+
 Route::get('/', 'zybController@index')->name('principal');
 
 Route::post('/', 'zybController@form')->name('cargardato');
@@ -30,6 +32,6 @@ return view('prueba');
 
 Route::post('/prueba', 'zybController@store')->name('nueva_seccion');
 
-// Envio de mails
+// Envio de mails (funcionando!)
 
 Route::resource('mail', 'MailController');
