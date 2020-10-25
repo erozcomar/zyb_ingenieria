@@ -15,21 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'zybController@index')->name('principal');
 
-Route::post('/', 'zybController@form')->name('principal');
-
-// Route::get('/administrador/{id?}', 'zybController@admin')->name('admin');
+Route::post('/', 'zybController@form')->name('cargardato');
+// Route::post('/', 'zybController@form')->name('principal');
 
 Route::any('/administrador', 'zybController@consultarPreguntas')->name('admin');
-
-// Route::get('/administrador/{id?}', function($id = null){
-//         $preguntas = [
-//         'madera',
-//         'papel',
-//         'pino'
-//         ];
-// return view('administrador', compact('preguntas', 'id'));
-// })->name('admin');
-
 
 Route::get('/welcome', function(){
 return view('welcome');
@@ -40,3 +29,7 @@ return view('prueba');
 })->name('nueva_seccion');
 
 Route::post('/prueba', 'zybController@store')->name('nueva_seccion');
+
+// Envio de mails
+
+Route::resource('mail', 'MailController');

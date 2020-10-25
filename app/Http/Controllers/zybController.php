@@ -40,7 +40,7 @@ class zybController extends Controller
         ['name' => $request->name,
         'email' => $request->email,
         'phone_number' => $request->phone,
-        'message' => $request->message]
+        'message' => $request->query]
         );
 
      return view('zyb');

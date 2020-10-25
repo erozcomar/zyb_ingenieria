@@ -7,10 +7,10 @@
 </head>
 <body>
 
-<p><strong>Nombre:</strong>{consultas::all()}</p>
-<p><strong>Email:</strong>{}</p>
-<p><strong>Teléfono:</strong>{}</p>
-<p><strong>Consulta:</strong>{}</p>
+<p><strong>Nombre:</strong>{!!$name!!}</p>
+<p><strong>Email:</strong>{!!$email!!}</p>
+<p><strong>Teléfono:</strong>{!!$phone!!}</p>
+<p><strong>Consulta:</strong>{!!$query!!}</p>
 
 </body>
 </html>

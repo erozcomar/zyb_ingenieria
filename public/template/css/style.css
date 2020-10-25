@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #03C4EB;
+  color: #0368eb;
   transition: 0.5s;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
+  background: #0368eb;
   color: #fff;
 }
 
@@ -88,8 +88,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px;
 }
 
+@media (min-width: 1300px) {
+  #hero .hero-logo img {
+    width: 25%;
+    height: 25%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1300px) {
+  #hero .hero-logo img {
+    width: 35%;
+    height: 35%;
+  }
+}
+
 #hero .hero-logo img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #hero .hero-container {
@@ -150,8 +164,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #0368eb;
+  border: 2px solid #0368eb;
   color: #fff;
 }
 
@@ -167,8 +181,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #0368eb;
+  border: 2px solid #0368eb;
 }
 
 /*--------------------------------------------------------------
@@ -305,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #0368eb;
 }
 
 .nav-menu ul {
@@ -413,11 +427,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03C4EB;
+  color: #0368eb;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03C4EB;
+  color: #0368eb;
 }
 
 #mobile-body-overly {
@@ -459,13 +473,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-description {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #0368eb;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -474,7 +488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #about {
   background: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #about .about-container {
@@ -504,7 +518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  padding: 40px 0 20px 0;
 }
 
 #services .service-item {
@@ -513,11 +527,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #0368eb;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #0368eb;
 }
 
 #services .service-icon i {
@@ -530,7 +544,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #0368eb;
 }
 
 #services .service-title {
@@ -588,15 +602,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #0368eb;
+  border: 2px solid #0368eb;
 }
 
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
   background: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #portfolio .portfolio-item {
@@ -683,7 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #03C4EB;
+  color: #0368eb;
   margin-bottom: 5px;
 }
 
@@ -720,7 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 80px 0 60px 0;
+  padding: 40px 0 20px 0;
 }
 
 #team .member {
@@ -758,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #0368eb;
 }
 
 #team .member .social i {
@@ -770,7 +784,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   background: #f7f7f7;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #contact .info {
@@ -779,7 +793,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #0368eb;
   float: left;
 }
 
@@ -789,8 +803,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
-  border: 1px solid #03C4EB;
+  color: #0368eb;
+  border: 1px solid #0368eb;
   display: none;
   text-align: center;
   padding: 15px;
@@ -826,7 +840,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #0368eb;
   border: 0;
   padding: 10px 24px;
   color: #fff;

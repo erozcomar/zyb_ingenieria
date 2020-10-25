@@ -50,10 +50,12 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="/template/img/zyb_logo.png" alt="ProOnliPc">
+            <!-- <img src="/template/img/zyb_logo2.png" width="20%" height="20%" alt="ProOnliPc"> -->
+            <img class="" src="/template/img/zyb_logo2.png" alt="ProOnliPc">
         </div>
 
-        <h1>{{trans('zyb.name')}}</h1>
+
+        <!-- <h1>{{trans('zyb.name')}}</h1> -->
         <h2>
             <span class="rotating">{{trans('zyb.service_1')}}, {{trans('zyb.service_2')}}, {{trans('zyb.service_3')}}</span>
         </h2>
@@ -71,7 +73,7 @@
   <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="/template/img/zyb_logo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="/template/img/zyb_logo5.png" alt="" title="" /></img></a>
         <!-- Descomenta abajo si prefieres usar una imagen de texto -->
         <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
       </div>
@@ -435,7 +437,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
-                <form class="form-horizontal" method="post" action="{{ route('principal') }}">
+                <!-- <form class="form-horizontal" method="post" action="{{ route('principal') }}"> -->
+                <form class="form-horizontal" method="post" action="{{ route('mail.store') }}">
                     <fieldset>
                         @csrf
                     
@@ -467,7 +470,7 @@
                             <span class="col-md-1 col-md-offset-2 text-center"><i
                                     class="fa fa-pencil-square-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message"
+                                <textarea class="form-control" id="query" name="query"
                                     placeholder="Ingrese su consulta aquí."
                                     rows="7"></textarea>
                             </div>
