@@ -438,7 +438,7 @@
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Empresa" class="form-control">
+                                <input id="lname" required name="name" type="text" placeholder="Empresa" class="form-control">
                             </div>
                         </div>
 
@@ -446,7 +446,7 @@
                             <span class="col-md-1 col-md-offset-2 text-center"><i
                                     class="fa fa-envelope-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email"
+                                <input id="email" required name="email" type="email" placeholder="Email"
                                     class="form-control">
                             </div>
                         </div>
@@ -455,7 +455,7 @@
                             <span class="col-md-1 col-md-offset-2 text-center"><i
                                     class="fa fa-phone-square bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                <input id="phone" name="phone" type="number" placeholder="Telefono" class="form-control">
                             </div>
                         </div>
 
@@ -463,7 +463,7 @@
                             <span class="col-md-1 col-md-offset-2 text-center"><i
                                     class="fa fa-pencil-square-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <textarea class="form-control" id="query" name="query"
+                                <textarea class="form-control" id="query" required name="query"
                                     placeholder="Ingrese su consulta aquí."
                                     rows="7"></textarea>
                             </div>
