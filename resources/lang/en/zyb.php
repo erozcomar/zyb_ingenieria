@@ -35,5 +35,18 @@ return [
 
     'ubication'=>'Córdoba, Argentina',
     'post_code'=>'CP 5000',
-    'mail'=>'zyb.ingenieria@gmail.com'
+    'mail'=>'zyb.ingenieria@gmail.com',
+
+    'servicio1'=>'servicio',
+    'servicio1text'=>'blabla',
+    'servicio2'=>'servicio',
+    'servicio2text'=>'blabla',
+    'servicio3'=>'servicio',
+    'servicio3text'=>'blabla',
+    'servicio4'=>'servicio',
+    'servicio4text'=>'blabla',
+    'servicio5'=>'servicio',
+    'servicio5text'=>'blabla',
+    'servicio6'=>'servicio',
+    'servicio6text'=>'blabla',
 ];
