@@ -153,7 +153,7 @@
 
       <div class="row">
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-desktop"></i></div>
+          <div class="service-icon"><i class="fa fa-briefcase"></i></div>
           <h4 class="service-title"><a href="">{{trans('zyb.servicio1')}}</a></h4>
           <p class="service-description">{{trans('zyb.servicio1text')}}</p>
         </div>
@@ -163,22 +163,22 @@
           <p class="service-description">{{trans('zyb.servicio2text')}}</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+          <div class="service-icon"><i class="fa fa-users"></i></div>
           <h4 class="service-title"><a href="">{{trans('zyb.servicio3')}}</a></h4>
           <p class="service-description">{{trans('zyb.servicio3text')}}</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-photo"></i></div>
+          <div class="service-icon"><i class="fa fa-handshake-o"></i></div>
           <h4 class="service-title"><a href="">{{trans('zyb.servicio4')}}</a></h4>
           <p class="service-description">{{trans('zyb.servicio4text')}}</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-road"></i></div>
+          <div class="service-icon"><i class="fa fa-code"></i></div>
           <h4 class="service-title"><a href="">{{trans('zyb.servicio5')}}</a></h4>
           <p class="service-description">{{trans('zyb.servicio5text')}}</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
+          <div class="service-icon"><i class="fa fa-cogs"></i></div>
           <h4 class="service-title"><a href="">{{trans('zyb.servicio6')}}</a></h4>
           <p class="service-description">{{trans('zyb.servicio6text')}}</p>
         </div>

@@ -7,6 +7,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#row {
+  display: inline-block;
+}
+
 a {
   color: #0368eb;
   transition: 0.5s;
