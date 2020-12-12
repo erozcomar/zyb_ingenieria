@@ -74,8 +74,6 @@
     <div class="container">
       <div id="logo" class="pull-left">
         <a href="#hero"><img src="/template/img/zyb_logo5.png" alt="" title="" /></img></a>
-        <!-- Descomenta abajo si prefieres usar una imagen de texto -->
-        <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
@@ -83,33 +81,11 @@
           <li class="menu-active"><a href="#hero">{{trans('zyb.home')}}</a></li>
           <li><a href="#about">{{trans('zyb.about')}}</a></li>
           <li><a href="#services">{{trans('zyb.services')}}</a></li>
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-          <!-- <li><a href="#testimonials">Testimonials</a></li> -->
-          <!-- <li><a href="#team">{{trans('zyb.team')}}</a></li> -->
-          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
           <li><a href="#contact">{{trans('zyb.contact')}}</a></li>
         </ul>
       </nav>
-      <!-- #nav-menu-container -->
     </div>
   </header>
-  <!-- #header -->
 
   <!--==========================
   About Section
@@ -214,233 +190,6 @@
       </div>
     </div>
   </section>
-
-  <!--==========================
-  Subscrbe Section
-  ============================-->
-  <!-- <section id="subscribe">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-8">
-          <h3 class="subscribe-title">Subscribe For Updates</h3>
-          <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
-        </div>
-        <div class="col-md-4 subscribe-btn-container">
-          <a class="subscribe-btn" href="#">Subscribe Now</a>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!--==========================
-  Porfolio Section
-  ============================-->
-  <!-- <section id="portfolio">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Portfolio</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-1.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 1</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-2.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 2</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-3.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 3</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-4.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 4</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-5.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 5</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-6.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 6</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-7.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 7</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(/template/img/portfolio-8.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section> -->
-
-  <!--==========================
-  Testimonials Section
-  ============================-->
-  <!-- <section id="testimonials">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Testimonials</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="profile">
-            <div class="pic"><img src="/template/img/client-1.jpg" alt=""></div>
-            <h4>Saul Goodman</h4>
-            <span>Lawless Inc</span>
-          </div>
-        </div>
-        <div class="col-md-9">
-          <div class="quote">
-            <b><img src="/template/img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="/template/img/quote_sign_right.png" alt=""></small>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-9">
-          <div class="quote">
-            <b><img src="/template/img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="/template/img/quote_sign_right.png" alt=""></small>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="profile">
-            <div class="pic"><img src="/template/img/client-2.jpg" alt=""></div>
-            <h4>Sara Wilsson</h4>
-            <span>Odeo Inc</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section> -->
-
-  <!--==========================
-  Team Section
-  ============================-->
-  <!-- <section id="team">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Our Team</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="/template/img/team-1.jpg" alt=""></div>
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="/template/img/team-2.jpg" alt=""></div>
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="/template/img/team-3.jpg" alt=""></div>
-            <h4>William Anderson</h4>
-            <span>CTO</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="/template/img/team-4.jpg" alt=""></div>
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section> -->
 
   <!--==========================
   Contact Section
@@ -548,7 +297,6 @@
   </footer>
   <!-- #footer
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   Required JavaScript Libraries -->
   <script src="/template/lib/jquery/jquery.min.js"></script>
