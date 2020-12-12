@@ -23,7 +23,7 @@
   <meta name="twitter:image" content="">
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-  <link href="favicon.ico" rel="shortcut icon">
+  <link href="/template/img/zyb_logo2.png" rel="shortcut icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -136,6 +136,35 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id='about'>
+  <div class="container wow fadeInUp">
+    <h2 class="section-title">Misión</h2>
+      <p class="section-description">
+        {{trans('zyb.mision-text1')}}
+      </p>
+    <h2 class="section-title">Visión</h2>
+      <p class="section-description">
+        {{trans('zyb.vision-text1')}}
+      </p>
+    <h2 class="section-title">Valores</h2>
+      <p class="section-description">
+        {{trans('zyb.valores-text1')}}
+      </p>
+      <p class="section-description">
+        {{trans('zyb.valores-text2')}}
+      </p>
+      <p class="section-description">
+        {{trans('zyb.valores-text3')}}
+      </p>
+      <p class="section-description">
+        {{trans('zyb.valores-text4')}}
+      </p>
+      <p class="section-description">
+        {{trans('zyb.valores-text5')}}
+      </p>
+  </div>
   </section>
 
   <!--==========================

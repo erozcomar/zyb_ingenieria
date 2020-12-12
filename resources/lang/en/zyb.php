@@ -26,8 +26,8 @@ return [
 
     'slogan'=>'Tu visión es nuestra misión',
 
-    'about-text1'=>'Somos una empresa joven conformada en un garaje, donde nacen comúnmente los negocios, durante el mes de junio de 2016 en uno de los barrios de nuestra provincia de Córdoba. Somos un grupo de 4 amigos, que a la vez de estar trabajando bajo dependencia decidimos abrir nuestro propio negocio de asesoría y gestión a empresas metalúrgicas y de consumo masivo.',
-    'about-text2'=>'La vida nos presentó nuevas oportunidades, por lo cual hoy en día contamos con un staff mayor en cuanto a personal en nuestra empresa, donde contamos con ingenieros, diseñadores, desarrolladores, programadores, docentes, por lo cual ampliamos nuestro rubro de acción a empresas metalúrgicas, alimenticias, de envases y empaquetado, empresas de software, textiles y hasta de producción primaria. Donde haya posibilidad de mejorar nos va a encontrar.',
+    'about-text1'=>'Somos una empresa joven que nace de una idea de garaje, donde nacen comúnmente los negocios, durante el mes de junio de 2016 en uno de los barrios de nuestra provincia de Córdoba. Somos un grupo de 4 amigos, que a la vez de estar trabajando bajo dependencia decidimos abrir nuestro propio negocio de asesoría y gestión a empresas MultiRubro y de consumo masivo.',
+    'about-text2'=>'La vida nos presentó nuevas oportunidades, por lo cual hoy en día contamos con un staff mayor en cuanto a personal en nuestra empresa, donde contamos con ingenieros, diseñadores, desarrolladores, programadores, docentes, auditores, por lo cual ampliamos nuestro rubro de acción a empresas metalúrgicas, alimenticias, envases y empaquetado, empresas de software, textiles y hasta de producción primaria. Donde haya posibilidad de mejorar nos va a encontrar.',
 
     'services'=>'Nuestros Servicios',
     'team'=>'Equipo',
@@ -49,4 +49,16 @@ return [
     'servicio5text'=>'Mantenimiento + Hosting + Webmaster + Apps',
     'servicio6'=>'Diseño y desarrollo de productos',
     'servicio6text'=>'Calculo, modelado y confeccion de planos.',
+
+    'mision-text1'=>'Como precursores de gestión y mejora continua, entendemos que la misión es el propósito, razón de ser y fin de una organización, por lo tanto, tu Visión es nuestra misión en el mercado empresarial.',
+    'vision-text1'=>'Lograr convertirnos mediante una competencia sana en una de las consultoras de gestión y proyectos de ingeniería más grandes y reconocidas en el país a costa de reconocimiento y experiencia, para proyectar en el futuro negocios hacia fuera del país.',
+    'valores-text1'=>'Honestidad – en el trabajo como en la vida, ofrecemos y te conocemos antes de venderte nuestro servicio, para nosotros primero la verdad.',
+
+    'valores-text2'=>'Respeto y paciencia – para trabajar, creemos que son los fuertes para trabajar tanto en un entorno de lideres como en un entorno de planta productiva.',
+
+    'valores-text3'=>'Empatía – para crecer juntos, lograr los objetivos planteados y llevarte a la mejora productiva.',
+
+    'valores-text4'=>'Optimistas – ante la situación más difícil. No creemos en imposibles, y buscamos mejorar cualquier panorama por más oscuro que sea.',
+
+    'valores-text5'=>'Perseverancia – para salir adelante. Además de ser perseverantes, también la contagiaremos en tu compañía, motivando al entorno ya que sabemos que sin ellos no podemos crecer.',
 ];
