@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Mail;
 use Session;
 use Redirect;
+use App;
 
 class MailController extends Controller
 {
@@ -17,6 +18,18 @@ class MailController extends Controller
             $msj->to('cristianbono87@gmail.com');
         });
 
-        return view('zyb');
+
+        // $nuevaPregunta = new App\consultas;
+
+        // $nuevaPregunta->name = $request->name;
+        // $nuevaPregunta->email = $request->email;
+        // $nuevaPregunta->email = $request->phone;
+        // $nuevaPregunta->email = $request->query;
+
+        // $nuevaPregunta->save();
+
+        // return view('zyb');
+
+        return back();
     }
 }

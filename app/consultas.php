@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class query extends Model
+class consultas extends Model
 {
     //
 }

@@ -50,9 +50,9 @@ class zybController extends Controller
      {
         // $preguntas= DB::table('queries');
 
-        return view('administrador', compact('preguntas'));
+        // return view('administrador', compact('preguntas'));
 
-     return view('zyb');
+     return view('administrador');
 }
 
 

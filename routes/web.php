@@ -20,7 +20,7 @@ Route::get('/', 'zybController@index')->name('principal');
 Route::post('/', 'zybController@form')->name('cargardato');
 // Route::post('/', 'zybController@form')->name('principal');
 
-Route::any('/administrador', 'zybController@consultarPreguntas')->name('admin');
+Route::get('/administrador', 'zybController@consultarPreguntas')->name('admin');
 
 Route::get('/welcome', function(){
 return view('welcome');

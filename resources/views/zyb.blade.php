@@ -431,7 +431,7 @@
         <div class="col-md-12">
             <div class="well well-sm">
                 <!-- <form class="form-horizontal" method="post" action="{{ route('principal') }}"> -->
-                <form class="form-horizontal" method="post" action="{{ route('mail.store') }}">
+                <form class="form-horizontal" action="{{ route('mail.store') }}"  method="POST">
                     <fieldset>
                         @csrf
                     
