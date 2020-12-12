@@ -15,7 +15,7 @@ class MailController extends Controller
         Mail::send('emails.message-received', $request->all(), function($msj)
         {
             $msj->subject('correo de contacto');
-            $msj->to('cristianbono87@gmail.com');
+            $msj->to('zyb.gestion.ingenieria@gmail.com');
         });
 
 

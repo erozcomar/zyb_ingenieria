@@ -35,7 +35,7 @@ return [
 
     'ubication'=>'Córdoba, Argentina',
     'post_code'=>'CP 5000',
-    'mail'=>'zyb.ingenieria@gmail.com',
+    'mail'=>'zyb.gestion.ingenieria@gmail.com',
 
     'servicio1'=>'Asesoría en Producción y mejora continua',
     'servicio1text'=>'Ingeniería de procesos, desarrollo de documentación técnica.',
