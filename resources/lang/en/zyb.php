@@ -19,7 +19,7 @@ return [
 
     'service_1'=>'Gestión e ingeniería de procesos',
     'service_2'=>'Servicios de calidad',
-    'service_3'=>'Mejora continua, brindar valor agregado',
+    'service_3'=>'Mejora continua, Brindar valor agregado',
 
     'home'=>'Inicio',
     'about'=>'Sobre Nosotros',
