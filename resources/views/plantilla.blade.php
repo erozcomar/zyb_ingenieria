@@ -45,16 +45,14 @@
 <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="/template/img/zyb_logo5.png" alt="" title="" /></img></a>
+        <a href="/"><img src="/template/img/zyb_logo5.png" alt="" title="" /></img></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">{{trans('zyb.home')}}</a></li>
-          <li><a class="nav-link active" href="{{ route('bienvenidos') }}">Bienvenidos <span class="sr-only">(current)</span></a></li>
-          <li><a class="nav-link" href="{{ route('admin') }}">Administrador</a></li>
-          <li><a class="nav-link" href="{{ route('nueva_seccion') }}">Nueva Seccion</a></li>
-          <li><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>
+          <li class="menu-active"><a href="/#services">{{trans('zyb.return')}}</a></li>
+          <li><a href="/#contact">{{trans('zyb.contact')}}</a></li>
+          <!-- <li><a class="nav-link" href="{{ route('admin') }}">Administrador</a></li> -->
         </ul>
       </nav>
     </div>
@@ -84,7 +82,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">Footer
+    <div class="navbar-nav">
     </div>
   </div>
 </nav>
@@ -93,7 +91,7 @@
   Footer
 ============================-->
 
-  <footer id="footer">
+  <footer id="footer-servicios">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

@@ -22,13 +22,30 @@ Route::post('/', 'zybController@form')->name('cargardato');
 
 Route::get('/administrador', 'zybController@consultarPreguntas')->name('admin');
 
-Route::get('/welcome', function(){
-return view('welcome');
-})->name('bienvenidos');
+Route::get('/asesoria', function(){
+return view('servicio1');
+})->name('servicio1');
 
-Route::get('/prueba', function(){
-return view('prueba');
-})->name('nueva_seccion');
+Route::get('/consultoria', function(){
+return view('servicio2');
+})->name('servicio2');
+
+Route::get('/auditorias', function(){
+return view('servicio3');
+})->name('servicio3');
+
+Route::get('/coaching', function(){
+return view('servicio4');
+})->name('servicio4');
+
+Route::get('/web', function(){
+return view('servicio5');
+})->name('servicio5');
+
+Route::get('/producto', function(){
+return view('servicio6');
+})->name('servicio6');
+
 
 Route::post('/prueba', 'zybController@store')->name('nueva_seccion');
 
