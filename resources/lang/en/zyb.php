@@ -57,7 +57,7 @@ Desde este servicio ofrecemos la opción de optar por un acompañamiento en audi
 Contamos con auditores formados en las normas expuestas en la sección “Consultoría”.
 ',
 
-    'servicio4'=>'Coaching/Gestoría de clima laboral',
+    'servicio4'=>'Coaching / Gestoría de clima laboral',
     'servicio4text'=>'Motivación y trabajo en equipo de personal.',
     'servicio4-completo'=>'Desde la cultura organizacional, como encargados de producción, coordinadores de calidad, gestores de RRHH, entre otros perfiles de nuestro equipo de trabajo, hemos siempre mantenido un perfil ajeno a las palabras de “moda”. Desde un comienzo empezamos a ver el mal uso de la palabra Líder/Liderazgo, y hoy en la actualidad con el “Coaching”. Por esta razón formamos un equipo de experiencia sólida en manejo de personal y dictado de capacitaciones, con el fin de agregar el verdadero valor de liderazgo y coaching en las empresas. Transmitir una idea o un concepto desde la experiencia y/o la empatía es el verdadero arte para llegar a las personas. 
 Buscamos que el coaching o gestión motivacional  sirva para aumentar la productividad y la calidad del trabajo en las empresas. Como solemos decir desde nuestra empresa “entendemos tu negocio”.
