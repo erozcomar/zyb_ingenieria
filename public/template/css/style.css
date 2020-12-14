@@ -504,6 +504,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: 50% auto;
 }
 
+#about .about1-container {
+    background: url(../img/sections/explaining-data-on-whiteboard.jpg) left top no-repeat;
+    background-size: 50% auto;
+}
+
+#about .about2-container {
+    background: url(../img/sections/team-work-process-young-business-managers-crew-working-with-new-startup-project-labtop-on-wood-table-typing-keyboard-texting-message-analyze-graph-plans.jpg) left top no-repeat;
+    background-size: 50% auto;
+}
+
+#about .about3-container {
+    background: url(../img/sections/talking-to-audience.jpg) left top no-repeat;
+    background-size: 50% auto;
+}
+
+#about .about4-container {
+    background: url(../img/sections/goup.jpg) left top no-repeat;
+    background-size: 50% auto;
+}
+
+#about .about5-container {
+    background: url(../img/sections/diseño-web.jpg) left top no-repeat;
+    background-size: 50% auto;
+}
+
+#about .about6-container {
+    background: url(../img/sections/building-organization-uncertainty-choice-abstract-risk.jpg) left top no-repeat;
+    background-size: 50% auto;
+}
+
 #about .about-content {
   background: #fff;
 }
@@ -904,6 +934,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
     color: #ccc;
 }
+
+
+
 
 
 
