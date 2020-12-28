@@ -30,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-//! revisar esto!
 /* Prelaoder */
 #preloader { 
   position: fixed; 
@@ -40,8 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%; 
   height: 100%; 
   overflow: visible; 
-  // background: #fff url('../img/preloader.svg') no-repeat center center; 
-  background: #fff url('../img/zyb_logo5.png') no-repeat center center; 
+  background: #fff; 
 }
 
 /* Back to top button */
