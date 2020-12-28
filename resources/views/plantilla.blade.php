@@ -40,6 +40,8 @@
 </head>
   <body>
 
+  <div id="preloader"></div>
+
 <!-- barra de navegacion -->
 
 <header id="header">

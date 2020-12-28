@@ -2,7 +2,7 @@ jQuery(document).ready(function( $ ) {
 
   // Preloader
   $(window).on('load', function() {
-    $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
+    $('#preloader').delay(60).fadeOut('slow',function(){$(this).remove();});
   });
 
   // Hero rotating texts
@@ -18,7 +18,7 @@ jQuery(document).ready(function( $ ) {
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({
     animation: {opacity:'show'},
-    speed: 400
+    speed: 300
   });
   
   // Mobile Navigation

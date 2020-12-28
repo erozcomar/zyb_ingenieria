@@ -41,6 +41,7 @@
 </head>
 
 <body>
+
   <div id="preloader"></div>
 
   <!--==========================
@@ -50,12 +51,10 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-            <!-- <img src="/template/img/zyb_logo2.png" width="20%" height="20%" alt="ProOnliPc"> -->
             <img class="" src="/template/img/zyb_logo2.png" alt="ProOnliPc">
         </div>
 
 
-        <!-- <h1>{{trans('zyb.name')}}</h1> -->
         <h2>
             <span class="rotating">{{trans('zyb.service_1')}}, {{trans('zyb.service_2')}}, {{trans('zyb.service_3')}}</span>
         </h2>
