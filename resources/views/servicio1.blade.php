@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-8 col-md-push-6 about-content">
           <p class="about-text">
-           {{trans('zyb.servicio1-completo')}}
+           {{trans('zyb.servicio1-completo')}} 
           </p>
         </div>
       </div>
