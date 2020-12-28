@@ -574,7 +574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #0368eb;
   padding: 16px;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 0.5s no-repeat;
   border: 1px solid #0368eb;
 }
 
@@ -639,7 +639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   padding: 8px 20px;
   border-radius: 2px;
-  transition: 0.8s;
+  transition: 0.8s no-repeat;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
@@ -888,7 +888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 10px 24px;
   color: #fff;
-  transition: 0.4s;
+  transition: 0.4s no-repeat;
 }
 
 #contact .form button[type="submit"]:hover {
