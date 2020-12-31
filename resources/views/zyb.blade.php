@@ -9,18 +9,18 @@
   <meta content="" name="description">
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="">
+  <!-- <meta property="og:title" content="">
   <meta property="og:image" content="">
   <meta property="og:url" content="">
   <meta property="og:site_name" content="">
-  <meta property="og:description" content="">
+  <meta property="og:description" content=""> -->
 
   <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-  <meta name="twitter:card" content="summary">
+  <!-- <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="">
   <meta name="twitter:title" content="">
   <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="">
+  <meta name="twitter:image" content=""> -->
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
   <link href="/template/img/zyb_logo2.png" rel="shortcut icon">
@@ -70,18 +70,27 @@
   Sección de encabezado
   ============================-->
   <header id="header">
+
+  <div class='sociales'>
+    <div id='logo' class='pull-right'><a href="https://www.instagram.com/zyb.ingenieria/" class='fa fa-instagram'></a></div>
+    <div id='logo' class='pull-right'><a href="https://www.facebook.com/ZYB-Gesti%C3%B3n-Ingenieria-101746941285274" class='fa fa-facebook'></a></div>
+  </div>
+
     <div class="container">
       <div id="logo" class="pull-left">
         <a href="#hero"><img src="/template/img/zyb_logo5.png" alt="" title="" /></img></a>
       </div>
+      
+      
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">{{trans('zyb.home')}}</a></li>
           <li><a href="#about">{{trans('zyb.about')}}</a></li>
           <li><a href="#services">{{trans('zyb.services')}}</a></li>
-          <li><a href="#contact">{{trans('zyb.contact')}}</a></li>
+          <li><a href="#contact"><b>{{trans('zyb.contact')}}</b></a></li>
         </ul>
+
       </nav>
     </div>
   </header>
@@ -289,11 +298,12 @@
         </div>
     </div>
 </div>
- <div class="row">
-     <div class="col-md-3 col-md-push-2">
-         <div class="info">
+
+  <div class="row">
+    <div class="col-md-3 col-md-push-2">
+      <div class="info">
              <div>
-                 <i class="fa fa-map-marker"></i>
+               <i class="fa fa-map-marker"></i>
                  <p>{{ trans('zyb.ubication') }}<br>{{ trans('zyb.post_code') }}</p>
              </div>
 
@@ -301,12 +311,9 @@
                  <i class="fa fa-envelope"></i>
                  <p>{{ trans('zyb.mail') }}</p>
              </div>
-
-         </div>
-     </div>
-  </section>
-
-  <!--==========================
+    </section>
+    
+    <!--==========================
   Footer
 ============================-->
 

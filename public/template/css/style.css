@@ -2,6 +2,45 @@
 # General
 --------------------------------------------------------------*/
 
+/* redes sociales */
+
+
+/* ------------------- */
+
+div .sociales {
+  padding-right: 10%;
+}
+
+#header div .fa-instagram {
+  width: 40px;
+  height: 40px;
+  background-color: #cd486b;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 3px;
+  font-size: 30px;
+  color: #ccc;
+  text-align: center;
+}
+
+#header div .fa-instagram:hover {
+    background-color: #cd486bb9;
+}
+
+#header div .fa-facebook {
+  width: 40px;
+  height: 40px;
+  background-color: #3b5998;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 3px;
+  font-size: 30px;
+  color: #ccc;
+  text-align: center;
+}
+#header div .fa-facebook:hover {
+  background-color: #3b5898a6;
+}
 
 .mision {
   padding: 6px;
