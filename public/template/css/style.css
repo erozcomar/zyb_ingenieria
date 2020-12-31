@@ -12,6 +12,7 @@ div .sociales {
 }
 
 div .sociales .fa-instagram {
+  content: f16d;
   width: 40px;
   height: 40px;
   background-color: #cd486b;
@@ -24,10 +25,11 @@ div .sociales .fa-instagram {
 }
 
 div .sociales .fa-instagram:hover {
-    background-color: #cd486bb9;
+  background-color: #cd486bb9;
 }
 
 div .sociales .fa-facebook {
+  content: f09a;
   width: 40px;
   height: 40px;
   background-color: #3b5998;
