@@ -72,8 +72,8 @@
   <header id="header">
 
   <div class='sociales'>
-    <div id='logo' class='pull-right'><a href="https://www.instagram.com/zyb.ingenieria/" class='fa fa-instagram'></a></div>
-    <div id='logo' class='pull-right'><a href="https://www.facebook.com/ZYB-Gesti%C3%B3n-Ingenieria-101746941285274" class='fa fa-facebook'></a></div>
+    <div id='logo' class='pull-right'><a href="https://www.instagram.com/zyb.ingenieria/"><i class='fa fa-instagram'></i></a></div>
+    <div id='logo' class='pull-right'><a href="https://www.facebook.com/ZYB-Gesti%C3%B3n-Ingenieria-101746941285274"><i class='fa fa-facebook'></i></a></div>
   </div>
 
     <div class="container">
@@ -85,9 +85,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">{{trans('zyb.home')}}</a></li>
-          <li><a href="#about">{{trans('zyb.about')}}</a></li>
-          <li><a href="#services">{{trans('zyb.services')}}</a></li>
+          <li class="menu-active"><a href="#hero"><b>{{trans('zyb.home')}}</b></a></li>
+          <li><a href="#about"><b>{{trans('zyb.about')}}</b></a></li>
+          <li><a href="#services"><b>{{trans('zyb.services')}}</b></a></li>
           <li><a href="#contact"><b>{{trans('zyb.contact')}}</b></a></li>
         </ul>
 

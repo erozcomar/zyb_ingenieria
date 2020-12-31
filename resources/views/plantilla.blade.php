@@ -52,8 +52,8 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="/#services">{{trans('zyb.return')}}</a></li>
-          <li><a href="/#contact">{{trans('zyb.contact')}}</a></li>
+          <li class="menu-active"><a href="/#services"><b>{{trans('zyb.return')}}</b></a></li>
+          <li><a href="/#contact"><b>{{trans('zyb.contact')}}</b></a></li>
           <!-- <li><a class="nav-link" href="{{ route('admin') }}">Administrador</a></li> -->
         </ul>
       </nav>
