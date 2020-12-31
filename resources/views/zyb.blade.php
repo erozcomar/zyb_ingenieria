@@ -113,32 +113,63 @@
     </div>
   </section>
 
+<!-- SECCION MISION, VISION, VALORES -->
+
   <section id='about'>
-  <div class="container wow fadeInUp">
+    <div class="container wow fadeInUp">
+      <div class='valores'>
+        <div class='mision'>
+    <br/>
     <h2 class="section-title">Misión</h2>
-      <p class="section-description">
-        {{trans('zyb.mision-text1')}}
-      </p>
+    <p class="section-description">
+      {{trans('zyb.mision-text1')}}
+    </p>
+  </div>
+  <br/>  
+  <div class='vision'>
+    <br/>
     <h2 class="section-title">Visión</h2>
+    <p class="section-description">
+      {{trans('zyb.vision-text1')}}
+    </p>
+  </div>
+      </div>
+  <br/>
+  <div class='valores'>
+  <br/>
+  <h2 class="section-title">Valores</h2>
       <p class="section-description">
-        {{trans('zyb.vision-text1')}}
-      </p>
-    <h2 class="section-title">Valores</h2>
-      <p class="section-description">
+        <b>
+          {{trans('zyb.valores-text1n')}}
+        </b>
         {{trans('zyb.valores-text1')}}
       </p>
       <p class="section-description">
+        <b>
+          {{trans('zyb.valores-text2n')}}
+        </b>
         {{trans('zyb.valores-text2')}}
       </p>
       <p class="section-description">
+        <b>
+          {{trans('zyb.valores-text3n')}}
+        </b>
         {{trans('zyb.valores-text3')}}
       </p>
       <p class="section-description">
+        <b>
+          {{trans('zyb.valores-text4n')}}
+        </b>
         {{trans('zyb.valores-text4')}}
       </p>
       <p class="section-description">
+        <b>
+          {{trans('zyb.valores-text5n')}}
+        </b>
         {{trans('zyb.valores-text5')}}
       </p>
+  </div>
+      
   </div>
   </section>
 

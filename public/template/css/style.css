@@ -3,12 +3,38 @@
 --------------------------------------------------------------*/
 
 
+.mision {
+  padding: 6px;
+  border-radius: 15px;
+  background: rgba(69, 125, 228, 0.561);
+}
 
+.vision {
+  background: rgba(231, 152, 128, 0.527);
+  border-radius: 15px;
+  padding: 6px;
+}
+
+.valores {
+  background: rgba(204, 205, 214, 0.541);
+  border-radius: 15px;
+  padding: 6px;
+}
 
 body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+}
+
+body .mision {
+  color: black
+}
+body .vision {
+  color: black
+}
+body .valores {
+  color: black
 }
 
 #row {
@@ -510,35 +536,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about1-container {
     background: url(../img/sections/explaining-data-on-whiteboard.jpg) left top no-repeat;
     background-size: 50% auto;
-}
-
-#about .about2-container {
+    width:90%;
+    /* height:220px; */
+  }
+  
+  #about .about2-container {
     background: url(../img/sections/team-work-process-young-business-managers-crew-working-with-new-startup-project-labtop-on-wood-table-typing-keyboard-texting-message-analyze-graph-plans.jpg) left top no-repeat;
     background-size: 50% auto;
-}
-
-#about .about3-container {
+    width:90%;
+  }
+  
+  #about .about3-container {
     background: url(../img/sections/talking-to-audience.jpg) left top no-repeat;
     background-size: 50% auto;
-}
-
-#about .about4-container {
+    width:90%;
+  }
+  
+  #about .about4-container {
     background: url(../img/sections/goup.jpg) left top no-repeat;
     background-size: 50% auto;
-}
-
-#about .about5-container {
+    width:90%;
+  }
+  
+  #about .about5-container {
     background: url(../img/sections/diseño-web.jpg) left top no-repeat;
     background-size: 50% auto;
-}
-
-#about .about6-container {
+    width:90%;
+  }
+  
+  #about .about6-container {
     background: url(../img/sections/building-organization-uncertainty-choice-abstract-risk.jpg) left top no-repeat;
     background-size: 50% auto;
+    width:90%;
 }
 
 #about .about-content {
   background: #fff;
+  
 }
 
 #about .about-title {

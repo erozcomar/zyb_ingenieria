@@ -76,14 +76,20 @@ No dudes en consultarnos, te cotizamos y asesoramos según la necesidad de tu pe
 
     'mision-text1'=>'Como precursores de gestión y mejora continua, entendemos que la misión es el propósito, razón de ser y fin de una organización, por lo tanto, tu Visión es nuestra misión en el mercado empresarial.',
     'vision-text1'=>'Lograr convertirnos mediante una competencia sana en una de las consultoras de gestión y proyectos de ingeniería más grandes y reconocidas en el país a costa de reconocimiento y experiencia, para proyectar en el futuro negocios hacia fuera del país.',
-    'valores-text1'=>'Honestidad – en el trabajo como en la vida, ofrecemos y te conocemos antes de venderte nuestro servicio, para nosotros primero la verdad.',
+    'valores-text1n'=>'Honestidad y transparencia',
+    'valores-text1'=>'en el trabajo como en la vida. Primero te conocemos y luego te ofrecemos nuestro servicio.',
 
-    'valores-text2'=>'Respeto y paciencia – para trabajar, creemos que son los fuertes para trabajar tanto en un entorno de lideres como en un entorno de planta productiva.',
+    'valores-text2n'=>'Respeto y paciencia',
+    'valores-text2'=>'para trabajar. Creemos que son los pilares fundamentales para cualquier proyecto.',
 
-    'valores-text3'=>'Empatía – para crecer juntos, lograr los objetivos planteados y llevarte a la mejora productiva.',
+    'valores-text3n'=>'Empatía',
+    'valores-text3'=>'para crecer juntos, lograr los objetivos planteados, y alcanzar la mejora continua.',
 
-    'valores-text4'=>'Optimistas – ante la situación más difícil. No creemos en imposibles, y buscamos mejorar cualquier panorama por más oscuro que sea.',
+    'valores-text4n'=>'Optimistas',
+    'valores-text4'=>'ante la situación más difícil. No creemos en imposibles, y buscamos mejorar cualquier panorama.',
 
-    'valores-text5'=>'Perseverancia – para salir adelante. Además de ser perseverantes, también la contagiaremos en tu compañía, motivando al entorno ya que sabemos que sin ellos no podemos crecer.',
+    'valores-text5n'=>'Perseverancia',
+    'valores-text5'=>'para salir adelante. Además de ser perseverantes, contagiaremos la misma en tu compañía, motivando al entorno ya que sabemos que sin la ayuda de ellos no podemos crecer.',
+    
     'return'=>'Volver',
 ];

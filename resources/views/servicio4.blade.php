@@ -13,9 +13,10 @@
     </div>
     <div class="container about4-container wow fadeInUp">
       <div class="row">
-        <div class="col-md-5 col-md-push-6 about-content">
+        <div class="col-md-6 col-md-push-6 about-content">
           <p class="about-text">
            {{trans('zyb.servicio4-completo')}}
+           <br>
           </p>
         </div>
       </div>
