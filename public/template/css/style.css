@@ -7,21 +7,65 @@
 
 /* ------------------- */
 
+/* @media (max-width: 768px) {
+    #header {
+        height: 80px;
+    }
+
+    #header #logo h1 {
+        font-size: 26px;
+    }
+
+    #header #logo img {
+        max-height: 40px;
+    }
+} */
+
 div .sociales {
   padding-right: 12%;
 }
 
-div .sociales .fa-instagram {
+@media (max-width: 768px) {
+  div .sociales {
+    padding-right: 20%;
+  }
+
+}
+
+div .sociales .fa-linkedin {
+   display: flex;
+   justify-content: center;
+   align-items: center;
   content: f16d;
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
+  background-color: #007bb5;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 3px;
+  font-size: 30px;
+  color: #ccc;
+  /* text-align: center; */
+}
+
+div .sociales .fa-linkedin:hover {
+  background-color: #007cb57c;
+}
+
+div .sociales .fa-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: f16d;
+  width: 38px;
+  height: 38px;
   background-color: #cd486b;
   border-radius: 5px;
   margin: 2px;
   padding: 3px;
   font-size: 30px;
   color: #ccc;
-  text-align: center;
+  /* text-align: center; */
 }
 
 div .sociales .fa-instagram:hover {
@@ -29,16 +73,19 @@ div .sociales .fa-instagram:hover {
 }
 
 div .sociales .fa-facebook {
+   display: flex;
+   justify-content: center;
+   align-items: center;
   content: f09a;
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   background-color: #3b5998;
   border-radius: 5px;
   margin: 2px;
   padding: 3px;
   font-size: 30px;
   color: #ccc;
-  text-align: center;
+  /* text-align: center; */
 }
 div .sociales .fa-facebook:hover {
   background-color: #3b5898a6;
@@ -168,15 +215,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1300px) {
   #hero .hero-logo img {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1300px) {
   #hero .hero-logo img {
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
   }
 }
 

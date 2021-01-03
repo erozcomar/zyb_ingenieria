@@ -45,6 +45,16 @@
 <!-- barra de navegacion -->
 
 <header id="header">
+
+<div class='sociales'>
+    <div id='logo' class='pull-right'><a href="https://www.instagram.com/zyb.ingenieria/"><i
+                class='fa fa-instagram'></i></a></div>
+    <div id='logo' class='pull-right'><a href="https://www.facebook.com/ZYB-Gesti%C3%B3n-Ingenieria-101746941285274"><i
+                class='fa fa-facebook'></i></a></div>
+    <div id='logo' class='pull-right'><a href="https://www.linkedin.com/in/zyb-ingenieria-919427203/"><i
+                class='fa fa-linkedin'></i></a></div>
+</div>
+
     <div class="container">
       <div id="logo" class="pull-left">
         <a href="/"><img src="/template/img/zyb_logo5.png" alt="" title="" /></img></a>
