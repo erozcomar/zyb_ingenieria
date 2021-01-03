@@ -33,10 +33,10 @@ div .sociales {
 }
 
 div .sociales .fa-linkedin {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  content: f16d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: f0e1;
   width: 38px;
   height: 38px;
   background-color: #007bb5;
@@ -73,9 +73,9 @@ div .sociales .fa-instagram:hover {
 }
 
 div .sociales .fa-facebook {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   content: f09a;
   width: 38px;
   height: 38px;
