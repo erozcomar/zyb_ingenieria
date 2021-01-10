@@ -321,14 +321,15 @@
         <div class="col-md-12">
             <div class='copyright'>
               <!-- <i class="fa fa-envelope"></i> -->
-              <img src="/template/img/zyb_logo5.png" alt="" title="" /></img>
-              <a href="zyb.gestion.ingenieria.com"><strong>{{ trans('zyb.mail') }}</strong></a>
+              <img src="/template/img/zyb_logo5.png" alt="ZYB" title="" /></img>
+              <a href="MAILTO:zyb.gestion.ingenieria.com"><strong>{{ trans('zyb.mail') }}</strong></a>
             </div>
         </div>
       </div>
     </div>
   </footer>
   <!-- #footer
+
 
 
   Required JavaScript Libraries -->
