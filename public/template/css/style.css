@@ -1027,7 +1027,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .copyright {
-  text-align: center;
+  text-align: left;
+}
+#footer .copyright img{
+  width: 30px;
 }
 
 #footer .credits {
@@ -1050,7 +1053,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer-servicios .copyright {
-    text-align: center;
+    text-align: left;
 }
 
 #footer-servicios .credits {
@@ -1059,6 +1062,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
     color: #ccc;
 }
+
+#footer-servicios .copyright img {
+    width: 30px;
+}
+
+
+
 
 
 

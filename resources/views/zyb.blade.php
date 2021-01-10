@@ -303,15 +303,12 @@
   <div class="row">
     <div class="col-md-3 col-md-push-2">
       <div class="info">
-             <div>
+             <!-- <div>
                <i class="fa fa-map-marker"></i>
                  <p>{{ trans('zyb.ubication') }}<br>{{ trans('zyb.post_code') }}</p>
-             </div>
+             </div> -->
 
-             <div>
-                 <i class="fa fa-envelope"></i>
-                 <p>{{ trans('zyb.mail') }}</p>
-             </div>
+            
     </section>
     
     <!--==========================
@@ -322,13 +319,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="copyright">
-            <strong>Córdoba, Argentina</strong>
-          </div>
-          <div class="credits">
-        
-            <a href="https://linkedin.com/in/cristian-bono-11636b103/">Develop By Cristian Bono</a>
-          </div>
+            <div class='copyright'>
+              <!-- <i class="fa fa-envelope"></i> -->
+              <img src="/template/img/zyb_logo5.png" alt="" title="" /></img>
+              <a href="zyb.gestion.ingenieria.com"><strong>{{ trans('zyb.mail') }}</strong></a>
+            </div>
         </div>
       </div>
     </div>
