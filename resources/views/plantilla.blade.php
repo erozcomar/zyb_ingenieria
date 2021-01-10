@@ -110,7 +110,7 @@
           <div class='copyright'>
               <!-- <i class="fa fa-envelope"></i> -->
               <img src="/template/img/zyb_logo5.png" alt="" title="" /></img>
-              <a href="MAILTO:zyb.gestion.ingenieria.com"><strong>{{ trans('zyb.mail') }}</strong></a>
+              <a href="MAILTO:zyb.gestion.ingenieria@gmail.com"><strong>{{ trans('zyb.mail') }}</strong></a>
             </div>
         </div>
       </div>
