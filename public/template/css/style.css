@@ -21,6 +21,31 @@
     }
 } */
 
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
 div .sociales {
   padding-right: 12%;
 }
@@ -94,17 +119,17 @@ div .sociales .fa-facebook:hover {
 .mision {
   padding: 6px;
   border-radius: 15px;
-  background: rgba(69, 125, 228, 0.561);
+  background: rgba(51, 106, 209, 0.561);
 }
 
 .vision {
-  background: rgba(231, 152, 128, 0.527);
+  background: rgba(51, 106, 209, 0.561);
   border-radius: 15px;
   padding: 6px;
 }
 
 .valores {
-  background: rgba(204, 205, 214, 0.541);
+  background: rgba(51, 106, 209, 0.561);
   border-radius: 15px;
   padding: 6px;
 }

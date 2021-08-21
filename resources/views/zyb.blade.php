@@ -125,63 +125,80 @@
 
 <!-- SECCION MISION, VISION, VALORES -->
 
-  <section id='about'>
-    <div class="container wow fadeInUp">
-      <div class='valores'>
-        <div class='mision'>
-    <br/>
-    <h2 class="section-title">Misión</h2>
-    <p class="section-description">
-      {{trans('zyb.mision-text1')}}
-    </p>
-  </div>
-  <br/>  
-  <div class='vision'>
-    <br/>
-    <h2 class="section-title">Visión</h2>
-    <p class="section-description">
-      {{trans('zyb.vision-text1')}}
-    </p>
-  </div>
+<!-- <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+<div id="demo" class="collapse">
+Lorem ipsum dolor text....
+</div> -->
+
+<section id='about'>
+  <!-- <button data-toggle="collapse" data-target="#demo"> -->
+    <div data-toggle="collapse" data-target="#demo" class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">NUESTROS VALORES</h3>
+          <div class="section-title-divider"></div>
+        </div>
       </div>
-  <br/>
-  <div class='valores'>
-  <br/>
-  <h2 class="section-title">Valores</h2>
+    </div>
+  <!-- </button> -->
+<div class="col-md-12">
+    <div id="demo" class='collapse'>
+      <!-- <div class="container wow fadeInUp"> -->
+          <div class='mision'>
+      <br/>
+      <h2 class="section-title">Misión</h2>
       <p class="section-description">
-        <b>
-          {{trans('zyb.valores-text1n')}}
-        </b>
-        {{trans('zyb.valores-text1')}}
+        {{trans('zyb.mision-text1')}}
       </p>
+    </div>
+    <br/>  
+    <div class='vision'>
+      <br/>
+      <h2 class="section-title">Visión</h2>
       <p class="section-description">
-        <b>
-          {{trans('zyb.valores-text2n')}}
-        </b>
-        {{trans('zyb.valores-text2')}}
+        {{trans('zyb.vision-text1')}}
       </p>
-      <p class="section-description">
-        <b>
-          {{trans('zyb.valores-text3n')}}
-        </b>
-        {{trans('zyb.valores-text3')}}
-      </p>
-      <p class="section-description">
-        <b>
-          {{trans('zyb.valores-text4n')}}
-        </b>
-        {{trans('zyb.valores-text4')}}
-      </p>
-      <p class="section-description">
-        <b>
-          {{trans('zyb.valores-text5n')}}
-        </b>
-        {{trans('zyb.valores-text5')}}
-      </p>
+    </div>
+    <br/>
+    <div class='valores'>
+    <br/>
+    <h2 class="section-title">Valores</h2>
+        <p class="section-description">
+          <b>
+            {{trans('zyb.valores-text1n')}}
+          </b>
+          {{trans('zyb.valores-text1')}}
+        </p>
+        <p class="section-description">
+          <b>
+            {{trans('zyb.valores-text2n')}}
+          </b>
+          {{trans('zyb.valores-text2')}}
+        </p>
+        <p class="section-description">
+          <b>
+            {{trans('zyb.valores-text3n')}}
+          </b>
+          {{trans('zyb.valores-text3')}}
+        </p>
+        <p class="section-description">
+          <b>
+            {{trans('zyb.valores-text4n')}}
+          </b>
+          {{trans('zyb.valores-text4')}}
+        </p>
+        <p class="section-description">
+          <b>
+            {{trans('zyb.valores-text5n')}}
+          </b>
+          {{trans('zyb.valores-text5')}}
+        </p>
+    </div>
+        
+    </div>
   </div>
-      
-  </div>
-  </section>
+</section>
 
   <!--==========================
   Services Section
@@ -328,8 +345,15 @@
       </div>
     </div>
   </footer>
-  <!-- #footer
 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://api.whatsapp.com/send?phone=+5493516754535" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+
+
+  <!-- #footer
 
 
   Required JavaScript Libraries -->

@@ -36,6 +36,7 @@ return [
     'ubication'=>'Córdoba, Argentina',
     'post_code'=>'CP 5000',
     'mail'=>'zyb.gestion.ingenieria@gmail.com',
+    'phone'=>'+54 9 351 675-4535',
 
     'servicio1'=>'Asesoría en Producción y mejora continua',
     'servicio1text'=>'Ingeniería de procesos, desarrollo de documentación técnica.',
